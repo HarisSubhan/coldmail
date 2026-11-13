@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Origami99 Maps Extractor",
+  "version": "1.3.1",
+  "description": "Collects business leads from Google Maps into your Origami99 Lead Finder.",
+  "permissions": ["storage", "tabs", "scripting", "alarms"],
+  "host_permissions": ["<all_urls>"],
+  "action": { "default_popup": "popup.html", "default_icon": "icon.png" },
+  "background": { "service_worker": "background.js", "type": "module" },
+  "icons": { "48": "icon.png", "128": "icon.png" }
+}

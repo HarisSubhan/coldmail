@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+:root{--background:#0f1424;--foreground:#f3f4f8;--input:#171d33;--border:#333a55;--primary:#ff5a4e;--primary-foreground:#fff}
+body{font-family:system-ui,sans-serif;width:300px;padding:14px;margin:0;background:var(--background);color:var(--foreground)}
+h1{font-size:15px;margin:0 0 10px}label{font-size:12px;opacity:.8;display:block;margin-top:8px}
+input{width:100%;box-sizing:border-box;padding:7px;border-radius:8px;border:1px solid var(--border);background:var(--input);color:var(--foreground);margin-top:3px}
+button{margin-top:12px;width:100%;padding:8px;border:0;border-radius:8px;background:var(--primary);color:var(--primary-foreground);font-weight:600;cursor:pointer}
+.controls{display:flex;gap:8px}.controls button{width:50%}
+#s{margin-top:10px;font-size:12px;line-height:1.5}
+</style></head><body>
+<h1>Origami99 Maps Extractor</h1>
+<label>Connect code (from Lead Finder page)</label><input id="tok" placeholder="O99-...">
+<button id="save">Connect</button>
+<div class="controls"><button id="pause" title="Pause search">Ⅱ Pause</button><button id="resume" title="Resume saved search">▶ Resume</button></div>
+<div id="s" role="status"></div>
+<script src="popup.js"></script>
+</body></html>
